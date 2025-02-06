@@ -22,7 +22,7 @@ function App() {
           <Route path="settings" element={<Settings />} />
           <Route path="subscription" element={<Subscription />} />
           <Route path="orders" element={<Orders />} />
-        </Route>git push -u origin main
+        </Route>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
